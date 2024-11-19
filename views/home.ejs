@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="skyhigh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title> Home</title>
+</head>
+
+<body>
+    <%- include ('navbar')%>
+        <div class="row">
+            <div class="col-5">
+                <div>
+                    <img id="home-bannerbg-img" src="Rectangle 203.png">
+                    <div id="home-bannerimg-content" class="text-white">
+                        <span id="home-img-content">Find Your</span><br>
+                        <span id="home-img-content">Dream Property Today</span><br>
+                        <span id="home-img-content">With <span id="span-in-span">Sky High</span></span>
+                    </div>
+                    <div id="three-btns" class="d-flex grid gap-3">
+                        <button class="border-0 rounded-4 text-white fw-semibold" id="home-banner-btn" onclick="window.location.href='/buy'">Buying</button>
+                        <button class="border-0 rounded-4 text-white fw-semibold" id="home-banner-btn" onclick="window.location.href='/services'">Rental</button>
+                        <button class="border-0 rounded-4 text-white fw-semibold" id="home-banner-btn" onclick="window.location.href='/sell'">Selling</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 d-flex justify-content-around">
+                <img src="Mask group.png" alt="">
+                <img src="Mask group(1).png" alt="">
+                <img src="Mask group(2).png" alt="">
+                <img src="Mask group(3).png" alt="">
+                <img src="Mask group(4).png" alt="">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-6">
+                <div>
+                    <p class="fw-bold fs-2 text-black text-center">What is Skyhigh & Why you <span id="choose-it">choose
+                            it</span></p>
+                    <p id="what-para">At SkyHigh Realty Ventures, we redefine excellence in property consulting. With a
+                        commitment to transparency and tailored solutions, we offer unparalleled service to our clients.
+                        With over 50 successful deals spanning 2.5+ years, we bring expertise and reliability to every
+                        transaction, ensuring your real estate journey soars to new heights.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <img src="Rectangle 54(1).png">
+                        <img class="mt-3" src="Rectangle 53(1).png">
+                    </div>
+                    <div class="col-6 mt-2">
+                        <img src="Rectangle 52(1).png">
+                        <img class="mt-4" src="Rectangle 54(1).png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div id="bg-blueimg" class="text-center">
+                    <img width="80%" src="Rectangle 50(1).png">
+                </div>
+                <div id="bg-blueimg1">
+                    <img width="80%" src="Rectangle 59.png">
+                </div>
+                <div>
+                    <p id="what-para" class="p-5">SkyHigh Realty Ventures is a leading property consulting firm
+                        operating in Chennai, Dubai, Bengaluru, Coimbatore, and key regions of Tamil Nadu. With a focus
+                        on transparency and personalized service, we are committed to delivering exceptional results for
+                        our clients. Licensed by RERA, we have facilitated over 50 successful deals in just over 2.5
+                        years.</p>
+                </div>
+                <div>
+                    <button id="abt-us-btn" class="border rounded-2 bg-white border-primary-subtle text-primary" onclick="window.location.href='/about'">About
+                        Us</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <p class="text-center fw-bold fs-3">Our <span id="choose-it">Services</span></p>
+        </div>
+        <div class="d-flex justify-content-evenly w-100">
+            <div class="image-container">
+                <img width="30%" src="Component 32.png" alt="image-buying" class="image-buying"> 
+                <div class="overlay">
+                    <p class="explanation">Discover your dream property effortlessly with SkyHigh Realty Ventures. Our expert team guides you through the buying process with precision and care. From initial search to closing the deal, trust us to find your perfect home in Chennai, Dubai, Bengaluru, Coimbatore, or key areas of Tamil Nadu.</p>
+                </div>
+            </div>
+            <div class="image-container">
+                 <img width="30%" src="Component 33.png" alt="image-selling" class="image-selling">
+                <div class="overlay">
+                    <p class="explanation">Sell your property stress-free with SkyHigh Realty Ventures. With our market expertise and personalized approach, we ensure maximum exposure and optimal results for your sale. From pricing strategy to negotiation, let us handle the details while you enjoy a smooth and successful selling experience.</p>
+                </div>
+            </div>
+            <div class="image-container">
+                 <img width="30%" src="Component 34(1).png" alt="image-rental" class="image-rental"> 
+                <div class="overlay">
+                    <p class="explanation">Find your ideal rental property with ease through SkyHigh Realty Ventures. Whether it's an apartment, villa, or commercial space, we have options to suit your needs. Our dedicated team simplifies the rental process, providing tailored solutions for your short-term or long-term rental requirements.</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <p class="text-center fw-bold fs-3">Exclusive <span id="choose-it">Deals</span></p>
+        </div>
+        <div class="row mt-5">
+            <div class="col-2">
+                <div class="text-center mt-5">
+                    <button id="buy-btn" class="border-0 bg-white fw-bold fs-5">Buy</button><br><br>
+                    <button id="sell-btn" class="border-0 bg-white fw-bold fs-5">Sell</button><br><br>
+                    <button id="rental-btn" class="border-0 bg-white fw-bold fs-5">Rental</button>
+                </div>
+            </div>
+            <div class="col-10">
+                <div id="buy-details" class="details">
+                    <div class="d-flex justify-content-evenly">
+                        <div class="card border-0 shadow" style="width: 15rem;">
+                            <img src="Rectangle 65.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                                    <span>Location</span>
+                                </h5>
+                                <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                                    Kanyakumari, Tamilnadu.</p>
+                            </div>
+                        </div>
+                        <div class="card border-0 shadow" style="width: 15rem;">
+                            <img src="Rectangle 65(1).png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                                    <span>Apartment</span>
+                                </h5>
+                                <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                                    Kanyakumari, Tamilnadu.</p>
+                            </div>
+                        </div>
+                        <div class="card border-0 shadow" style="width: 15rem;">
+                            <img src="Rectangle 65.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                                    <span>Land</span>
+                                </h5>
+                                <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                                    Kanyakumari, Tamilnadu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sell-details" class="details">
+                    <div class="card shadow" style="width: 55rem;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <span>
+                                    <span class="text-black">Your are Here to</span>
+                                    <button id="sell-btn1" class="btn-1 border-primary rounded-4">Sell</button>
+                                    <button id="rental-btn1" class="btn-1 border-primary rounded-4">Rental</button>
+                                </span>
+                                <div>
+                                    <p style="color: #0A5FAE;">New Seller? <span style="color: #00A0E1;">Please Create
+                                            New Account</span></p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-2">
+                                <form>
+                                    <input type="text" id="sellrental-name" placeholder="Name"><br>
+                                    <input type="number" id="sellrental-phone" placeholder="Phone">
+                                </form>
+                            </div>
+                            <div class="d-flex justify-content-center mt-4">
+                                <button id="submit-your-property">Submit Your Property</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rental-details" class="details">
+                    <div class="d-flex justify-content-evenly">
+                        <div class="card border-0 shadow" style="width: 15rem;">
+                            <img src="Rectangle 65.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                                    <span>Location</span>
+                                </h5>
+                                <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                                    Kanyakumari, Tamilnadu.</p>
+                            </div>
+                        </div>
+                        <div class="card border-0 shadow" style="width: 15rem;">
+                            <img src="Rectangle 65(1).png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                                    <span>Apartment</span>
+                                </h5>
+                                <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                                    Kanyakumari, Tamilnadu.</p>
+                            </div>
+                        </div>
+                        <div class="card border-0 shadow" style="width: 15rem;">
+                            <img src="Rectangle 65.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                                    <span>Land</span>
+                                </h5>
+                                <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                                    Kanyakumari, Tamilnadu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <p class="text-center fw-bold fs-3">Our Latest <span id="choose-it">Projects</span></p>
+        </div>
+        <div class="mt-4">
+            <div class="d-flex justify-content-evenly">
+                <div class="card border-0 shadow" style="width: 15rem;">
+                    <img src="Rectangle 65.png">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                            <span>Location</span>
+                        </h5>
+                        <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                            Kanyakumari, Tamilnadu.</p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow" style="width: 15rem;">
+                    <img src="Rectangle 65(1).png">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                            <span>Apartment</span>
+                        </h5>
+                        <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                            Kanyakumari, Tamilnadu.</p>
+                    </div>
+                </div>
+                <div class="card border-0 shadow" style="width: 15rem;">
+                    <img src="Rectangle 65.png">
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
+                            <span>Land</span>
+                        </h5>
+                        <p class="card-text text-center text-black">SASS Apartment, Kattaiyanvillai, Nagercoil,
+                            Kanyakumari, Tamilnadu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <div id="our-latest-project-card" class="card" style="width: 70rem;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="text-center d-flex justify-content-center mt-5">
+                                <div>
+                                    <img src="project-svgrepo-com 1.png">
+                                </div>
+                                <div class="text-center text-white fw-semibold">
+                                    <span>Project Completed</span><br>
+                                    <span>10 +</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="vr text-white" style="height: 150px;width: 2px;"></div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center d-flex justify-content-center mt-5">
+                                <div>
+                                    <img src="customer-rate-svgrepo-com 1.png">
+                                </div>
+                                <div class="text-center text-white fw-semibold">
+                                    <span>Customer Satisfaction</span><br>
+                                    <span>10 %</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="vr text-white" style="height: 150px;width: 2px;"></div>
+                        </div>
+                        <div class="col-3">
+                            <div class="text-center d-flex justify-content-center mt-5">
+                                <div>
+                                    <img src="experience-svgrepo-com 1.png">
+                                </div>
+                                <div class="text-center text-white fw-semibold">
+                                    <span>Year of Experience</span><br>
+                                    <span>1 +</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <p class="text-center fw-bold fs-3">Our Customers <span id="choose-it">Reviewes</span></p>
+        </div>
+        <div class="d-flex justify-content-evenly mt-5">
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <img width="20%" src="Ellipse 3(1).png">
+                        <div class="ms-2">
+                            <span class="fw-semibold text-black">Krishnan</span><br>
+                            <span class="text-secondary">Nagercoil,Kanyakumari,Tamilnadu</span><br>
+                            <img src="Group 120.png">
+                        </div>
+                    </div>
+                    <p class="mt-3" id="review-card-para">Lorem ipsum dolor sit amet consectetur. Dui nulla nunc
+                        ultricies egestas tellus pellentesque sed facilisis. Sed molestie bibendum nunc pellentesque
+                        fames nunc ullamcorper ac. Sollicitudin et amet eleifend quis pellentesque. Congue varius
+                        commodo tortor dolor adipiscing. Laoreet urna ipsum ultricies integer eu amet nam magna tellus.
+                        Phasellus accumsan faucibus viverra.</p>
+                    <span class="d-flex justify-content-end">March 20,2024</span>
+                </div>
+            </div>
+
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <img width="20%" src="Ellipse 3(2).png">
+                        <div class="ms-2">
+                            <span class="fw-semibold text-black">Praveen</span><br>
+                            <span class="text-secondary">Nagercoil,Kanyakumari,Tamilnadu</span><br>
+                            <img src="Group 120.png">
+                        </div>
+                    </div>
+                    <p class="mt-3" id="review-card-para">Lorem ipsum dolor sit amet consectetur. Dui nulla nunc
+                        ultricies egestas tellus pellentesque sed facilisis. Sed molestie bibendum nunc pellentesque
+                        fames nunc ullamcorper ac. Sollicitudin et amet eleifend quis pellentesque. Congue varius
+                        commodo tortor dolor adipiscing. Laoreet urna ipsum ultricies integer eu amet nam magna tellus.
+                        Phasellus accumsan faucibus viverra.</p>
+                    <span class="d-flex justify-content-end">March 20,2024</span>
+                </div>
+            </div>
+
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <div class="d-flex">
+                        <img width="20%" src="Ellipse 3(3).png">
+                        <div class="ms-2">
+                            <span class="fw-semibold text-black">Manikandan</span><br>
+                            <span class="text-secondary">Nagercoil,Kanyakumari,Tamilnadu</span><br>
+                            <img src="Group 120.png">
+                        </div>
+                    </div>
+                    <p class="mt-3" id="review-card-para">Lorem ipsum dolor sit amet consectetur. Dui nulla nunc
+                        ultricies egestas tellus pellentesque sed facilisis. Sed molestie bibendum nunc pellentesque
+                        fames nunc ullamcorper ac. Sollicitudin et amet eleifend quis pellentesque. Congue varius
+                        commodo tortor dolor adipiscing. Laoreet urna ipsum ultricies integer eu amet nam magna tellus.
+                        Phasellus accumsan faucibus viverra.</p>
+                    <span class="d-flex justify-content-end">Feb 24,2024</span>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <p class="text-center fw-bold fs-3">Get In <span id="choose-it">Touch</span></p>
+        </div>
+        <div class="d-flex justify-content-around mt-5">
+            <div class="text-center">
+                <img src="3793121 1.png"><br>
+                <imgcaption class="mt-2 fw-semibold">1.Choose the Your City & Services</imgcaption>
+            </div>
+            <div class="text-center">
+                <img src="5214651 1.png"><br>
+                <imgcaption class="mt-2 fw-semibold">2.Find the Details About the Property</imgcaption>
+            </div>
+            <div class="text-center">
+                <img src="2880024 1.png"><br>
+                <imgcaption class="mt-2 fw-semibold">3.Get the Connect with Our Team</imgcaption>
+            </div>
+        </div>
+        <div class="">
+           <div class="row">
+               <div id="input-footer-card-img" class="col-2 text-center">
+                   <img width="99%" src="Rectangle 112.png">
+               </div>
+               <div class="col-10 d-flex justify-content-end mt-5">
+                <div id="input-footer-card" class="card border-0" style="width: 55rem; background-color: #ECF9FF;">
+                    <div class="card-body">
+                        <form>
+                            <div class="d-flex justify-content-center grid gap-3">
+                                <input class="border-bottom" id="name-input" oninput="validateName()" type="text1" placeholder="Name">
+                                <input class="border-bottom" id="phone-input" oninput="validatePhone()" type="phone1" placeholder="Phone Number">
+                            </div>
+                            <div class="d-flex justify-content-center grid gap-3 mt-5">
+                                <div>
+                                    <select class="bg-white border w-100" name="city" id="city">
+                                        <option value="City">Ariyalur</option>
+                                        <option value="City">Chengalpattu</option>
+                                        <option value="City">Kanyakumari</option>
+                                        <option value="City">Chennai</option>
+                                        <option value="City">Thirunelveli</option>
+                                        <option value="City">City</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <select class="bg-white border w-100" name="Service Request" id="Service Request">
+                                        <option value="Service Request">Buy</option>
+                                        <option value="Service Request">Sell</option>
+                                        <option value="Service Request">Rent</option>
+                                        <option value="Service Request">Service Request</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-5 border-0">
+                                <textarea placeholder="Description(Optional)"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <button class="rounded-3 border-0 text-white" style="background-color: #00A0E1;" onclick="requestCall()">Request a Call</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+               </div>
+           </div>
+        </div>
+        <%- include ('footer')%>
+</body>
+<script src="skyhigh.js"></script>
+</html>

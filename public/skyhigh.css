@@ -1,0 +1,239 @@
+#navbarNav{
+    margin-left: 60px;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#home-logo-img{
+    margin-left: 30px;
+}
+#post-a-property-btn{
+    width: 15%;
+    font-size:18px ;
+    font-weight:600 ;
+}
+#atag{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+#atag:hover{
+    color: #0A5FAE;
+    text-decoration: underline #0A5FAE 2px;
+}
+#footer-line-top{
+    border-top:3px solid #0A5FAE ;
+}
+#footer-line-bottom{
+    border-top:3px solid #0A5FAE ;
+}
+#footer-para{
+    text-align: justify;
+}
+#footer-icon{
+    color: #00A0E1;
+    font-size: 30px;
+}
+#quick-link{
+    color: #0A5FAE;
+    font-size:20px;
+    font-family:600;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+#footer-iconcontact{
+    color: #00A0E1;
+}
+#home-bannerbg-img{
+    position: relative;
+}
+#home-bannerimg-content{
+    position: absolute;
+    bottom: 41%;
+    margin-left: 40px;
+}
+#home-img-content{
+    font-size: 52px;
+    font-weight: 700;
+}
+#span-in-span{
+    color: #00A0E1;
+}
+#three-btns{
+    position: absolute;
+    bottom: 33%;
+    margin-left: 40px;
+}
+#home-banner-btn{
+    background-color: #00A0E1;
+    width: 108px;
+    height: 32px;
+}
+#choose-it{
+    text-decoration: underline #00A0E1 4px;
+}
+#what-para{
+    color: #8c8c8c;
+    text-align: justify;
+    padding: 23px;
+}
+#bg-blueimg{
+    position: absolute; 
+}
+#bg-blueimg1{
+    position: relative;
+    margin-left: 127px;
+    margin-top: 40px;
+}
+.details{
+    display: none;
+}
+#abt-us-btn{
+    margin-left: 35px;
+    width: 27%;
+    height: 27%;
+}
+.sbr{
+    color: #0A5FAE;
+}
+.active{
+    background-color: #0A5FAE;
+}
+input[type=text],[type=number]{
+    width: 150%;
+    padding: 12px 20px;
+    margin:8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #8c8c8c;
+}
+label[for=name],[for=phone]{
+    color: #8c8c8c;
+}
+#submit-your-property{
+    background-color: #0A5FAE;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#our-latest-project-card{
+    background-color: #0A5FAE;
+}
+.card-3work{
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-3work:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.0);
+}
+#review-card-para{
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+input[type=text1],[type=phone1]{
+    background-color: #ecf9ff;
+    margin-top: 40px;
+}
+#input-footer-card{
+    position: relative;
+}
+#input-footer-card-img{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 100px;
+    z-index: 2;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+.image-selling,.image-buying,.image-rental{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+.explanation{
+    text-align: justify;
+}
+.overlay .explanation{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+.image-container:hover .overlay{
+    opacity: 1;
+}
+
+#home-bannerimg-content-sell{
+    position: absolute;
+    bottom: 63%;
+    margin-left: 40px;
+}
+#home-img-content-sell{
+    font-size: 45px;
+    font-weight: 700;
+}
+#sell-home-para{
+    position: absolute;
+    text-align: justify;
+    padding: 7px;
+}
+#sell-home-buying-btn{
+    position: absolute;
+    margin-top: 40%;
+}
+.reset-btn,.search-btn{
+    border: 2px solid #00A0E1;
+    background-color: white;
+    color: #00A0E1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100px;
+}
+.reset-btn,.search-btn:hover{
+    opacity: 0.8;
+}
+.clicked{
+    background-color: #00A0E1;
+    color: white;
+}
+#para-byuersrequirements{
+    color: #8c8c8c;
+    text-align: justify;
+    padding: 10px;
+}
+#about-top-image{
+    position: relative;
+}
+#about-top-image-content{
+    position: relative;
+    bottom: 180px;
+    color: white;
+}
+#about-card1{
+    background-color: #0A5FAE;
+}
+#about-card2{
+    background-color: #00A0E1;
+}
