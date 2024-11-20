@@ -30,9 +30,9 @@
                             our clients' needs.</p>
                     </div>
                     <div id="footer-icon" class="d-flex grid gap-3">
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-square-x-twitter"></i>
-                        <i class="fa-brands fa-square-instagram"></i>
+                        <i id="footer-ic" class="fa-brands fa-square-facebook"></i>
+                        <i id="footer-ic" class="fa-brands fa-square-x-twitter"></i>
+                        <i id="footer-ic" class="fa-brands fa-square-instagram"></i>
                     </div>
                 </div>
             </div>
@@ -45,14 +45,14 @@
                 <div class="mt-4">
                     <p id="quick-link" class="fw-semibold">Quick Link</p>
                 </div>
-                <div>
-                    <div>
+                <div id="quick-links">
+                    <div  onclick="allReviews()">
                         <i class="fa-thin fa-greater-than"></i> <span class="text-black">All Reviews</span><br>
                     </div>
-                    <div class="mt-3">
+                    <div class="mt-3"  onclick="FAQ()">
                         <i class="fa-thin fa-greater-than"></i> <span class="text-black">FAQ</span><br>
                     </div>
-                    <div class="mt-3">
+                    <div class="mt-3" onclick="tandc()">
                         <i class="fa-thin fa-greater-than"></i> <span class="text-black">Terms and Conditions</span>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                 <div class="mt-4">
                     <p id="quick-link" class="fw-semibold">Contact Us</p>
                 </div>
-                <div>
+                <div id="contact-us">
                     <div>
                         <i id="footer-iconcontact" class="fa-solid fa-phone"></i>
                         <span class="ms-2 text-black">+91 9087654321</span>

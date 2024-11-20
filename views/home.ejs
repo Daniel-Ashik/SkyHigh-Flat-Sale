@@ -218,7 +218,7 @@
         </div>
         <div class="mt-4">
             <div class="d-flex justify-content-evenly">
-                <div class="card border-0 shadow" style="width: 15rem;">
+                <div id="project-card" class="card border-0 shadow" style="width: 15rem;">
                     <img src="Rectangle 65.png">
                     <div class="card-body">
                         <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
@@ -228,7 +228,7 @@
                             Kanyakumari, Tamilnadu.</p>
                     </div>
                 </div>
-                <div class="card border-0 shadow" style="width: 15rem;">
+                <div id="project-card" class="card border-0 shadow" style="width: 15rem;">
                     <img src="Rectangle 65(1).png">
                     <div class="card-body">
                         <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
@@ -238,7 +238,7 @@
                             Kanyakumari, Tamilnadu.</p>
                     </div>
                 </div>
-                <div class="card border-0 shadow" style="width: 15rem;">
+                <div id="project-card" class="card border-0 shadow" style="width: 15rem;">
                     <img src="Rectangle 65.png">
                     <div class="card-body">
                         <h5 class="card-title text-center text-black"><i class="fa-solid fa-location-dot"></i>
@@ -364,15 +364,15 @@
         <div class="d-flex justify-content-around mt-5">
             <div class="text-center">
                 <img src="3793121 1.png"><br>
-                <imgcaption class="mt-2 fw-semibold">1.Choose the Your City & Services</imgcaption>
+                <imgcaption class="mt-2 fw-bold fs-5">1.Choose the Your City & Services</imgcaption>
             </div>
             <div class="text-center">
                 <img src="5214651 1.png"><br>
-                <imgcaption class="mt-2 fw-semibold">2.Find the Details About the Property</imgcaption>
+                <imgcaption class="mt-2 fw-bold fs-5">2.Find the Details About the Property</imgcaption>
             </div>
             <div class="text-center">
                 <img src="2880024 1.png"><br>
-                <imgcaption class="mt-2 fw-semibold">3.Get the Connect with Our Team</imgcaption>
+                <imgcaption class="mt-2 fw-bold fs-5">3.Get the Connect with Our Team</imgcaption>
             </div>
         </div>
         <div class="">
@@ -422,5 +422,9 @@
         </div>
         <%- include ('footer')%>
 </body>
-<script src="skyhigh.js"></script>
+<script>
+    var navColor=document.getElementById('atagH')
+    navColor.style.color='#00A0E1'
+    navColor.style.textDecoration='underline 2px'
+</script>
 </html>

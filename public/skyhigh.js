@@ -108,3 +108,13 @@ function startPosting() {
 function acceptQuestion(){
     alert('Your Question is accepted!')
 }
+function allReviews(){
+    window.location.assign('https://www.google.com/search?client=firefox-b-d&q=flat+sale+reviews')
+}
+function FAQ(){
+    window.location.assign('https://www.saanvinirman.com/real-estate-faq')
+}
+function tandc(){
+    window.location.assign('https://www.investopedia.com/financial-edge/0810/7-must-have-real-estate-contract-conditions.aspx')
+}
+
