@@ -105,8 +105,8 @@ function startPosting() {
     document.getElementById('startPosting').classList.add('clicked')
 }
 
-function acceptQuestion(){
-    alert('Your Question is accepted!')
+function toggleAnswer(){
+    alert('Quality of life is better in a high-rise apartment. There will be better ventilation, better quality air, excellent views, zero noise, and superior privacy in an apartment which is on the higher floor.')
 }
 function allReviews(){
     window.location.assign('https://www.google.com/search?client=firefox-b-d&q=flat+sale+reviews')
@@ -117,4 +117,3 @@ function FAQ(){
 function tandc(){
     window.location.assign('https://www.investopedia.com/financial-edge/0810/7-must-have-real-estate-contract-conditions.aspx')
 }
-
