@@ -105,9 +105,9 @@ function startPosting() {
     document.getElementById('startPosting').classList.add('clicked')
 }
 
-function toggleAnswer(){
-    alert('Quality of life is better in a high-rise apartment. There will be better ventilation, better quality air, excellent views, zero noise, and superior privacy in an apartment which is on the higher floor.')
-}
+// function toggleAnswer(){
+//     alert('Quality of life is better in a high-rise apartment. There will be better ventilation, better quality air, excellent views, zero noise, and superior privacy in an apartment which is on the higher floor.')
+// }
 function allReviews(){
     window.location.assign('https://www.google.com/search?client=firefox-b-d&q=flat+sale+reviews')
 }
