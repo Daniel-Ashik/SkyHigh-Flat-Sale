@@ -50,6 +50,7 @@
 }
 #home-bannerbg-img{
     position: relative;
+    border-radius: 0px 3px 60px 0px;
 }
 #home-bannerimg-content{
     position: absolute;
@@ -68,7 +69,7 @@
 }
 #three-btns{
     position: absolute;
-    bottom: 33%;
+    bottom: 20%;
     margin-left: 40px;
 }
 #home-banner-btn{
@@ -156,7 +157,7 @@ input[type=text1],[type=phone1]{
     margin-top: 100px;
     z-index: 2;
 }
-.image-container{
+.image-container1{
     position: relative;
     display: inline-block;
 }
@@ -187,13 +188,13 @@ input[type=text1],[type=phone1]{
     font-weight: bold;
     padding: 10px;
 }
-.image-container:hover .overlay{
+.image-container1:hover .overlay{
     opacity: 1;
 }
 
 #home-bannerimg-content-sell{
     position: absolute;
-    bottom: 63%;
+    bottom: 53%;
     margin-left: 40px;
 }
 #home-img-content-sell{
@@ -278,4 +279,27 @@ input[type=text1],[type=phone1]{
     width: 20%;
     top: 42%;
     right:23%;
+}
+.image-container{
+    --m:
+    radial-gradient(circle farthest-side at right,#000 100%,#0000) 
+      0 100%/46% 92% no-repeat,
+    radial-gradient(circle farthest-side at left ,#000 100%,#0000) 
+      100% 0/46% 92% no-repeat;
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale(.5);
+  transition: .3s linear;
+  cursor: pointer;
+}
+.image-container:hover{
+          mask-position: 7.5% 50%,92.5% ;
+  filter: grayscale(0);
+}
+.nav-link:hover{
+    transform: scale(1.3);
+    font-family: sans-serif;
+}
+#top-col{
+    padding: 42px;
 }

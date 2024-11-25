@@ -76,7 +76,7 @@ function requestCall() {
     }
 }
 
-document.querySelector('.image-container').addEventListener('mousehover', function () {
+document.querySelector('.image-container1').addEventListener('mousehover', function () {
     console.log('Hovered image')
 })
 
@@ -117,3 +117,4 @@ function FAQ(){
 function tandc(){
     window.location.assign('https://www.investopedia.com/financial-edge/0810/7-must-have-real-estate-contract-conditions.aspx')
 }
+

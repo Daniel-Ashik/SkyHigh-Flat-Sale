@@ -17,7 +17,7 @@
 <body>
     <%- include ('navbar')%>
         <div class="row">
-            <div class="col-5">
+            <div id="top-col" class="col-7">
                 <div>
                     <img id="home-bannerbg-img" src="Rectangle 203.png">
                     <div id="home-bannerimg-content" class="text-white">
@@ -35,12 +35,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-7 d-flex justify-content-around">
-                <img src="Mask group.png" alt="">
-                <img src="Mask group(1).png" alt="">
-                <img src="Mask group(2).png" alt="">
-                <img src="Mask group(3).png" alt="">
-                <img src="Mask group(4).png" alt="">
+            <div class="col-5 d-flex image-container text-center">
+                <img src="Mask group.png" alt="Image 1">
+                <img src="Mask group(1).png" alt="Image 2">
+                <img src="Mask group(2).png" alt="Image 3">
+                <img src="Mask group(3).png" alt="Image 4">
+                <img src="Mask group(4).png" alt="Image 5">
             </div>
         </div>
         <div class="row mt-5">
@@ -90,7 +90,7 @@
             <p class="text-center fw-bold fs-3">Our <span id="choose-it">Services</span></p>
         </div>
         <div class="d-flex justify-content-evenly w-100">
-            <div class="image-container">
+            <div class="image-container1">
                 <img width="30%" src="Component 32.png" alt="image-buying" class="image-buying">
                 <div class="overlay">
                     <p class="explanation">Discover your dream property effortlessly with SkyHigh Realty Ventures. Our
@@ -99,7 +99,7 @@
                         Coimbatore, or key areas of Tamil Nadu.</p>
                 </div>
             </div>
-            <div class="image-container">
+            <div class="image-container1">
                 <img width="30%" src="Component 33.png" alt="image-selling" class="image-selling">
                 <div class="overlay">
                     <p class="explanation">Sell your property stress-free with SkyHigh Realty Ventures. With our market
@@ -108,7 +108,7 @@
                         and successful selling experience.</p>
                 </div>
             </div>
-            <div class="image-container">
+            <div class="image-container1">
                 <img width="30%" src="Component 34(1).png" alt="image-rental" class="image-rental">
                 <div class="overlay">
                     <p class="explanation">Find your ideal rental property with ease through SkyHigh Realty Ventures.
@@ -449,7 +449,6 @@
     var navColor = document.getElementById('atagH')
     navColor.style.color = '#00A0E1'
     navColor.style.textDecoration = 'underline 2px'
-
 </script>
 
 </html>
