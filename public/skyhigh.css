@@ -246,6 +246,7 @@ input[type=text1],[type=phone1]{
 }
 #footer-ic:hover{
     color: black;
+    cursor: pointer;
 }
 #project-card:hover{
     -ms-transform: scale(1.2); /* IE 9 */
@@ -302,4 +303,14 @@ input[type=text1],[type=phone1]{
 }
 #top-col{
     padding: 42px;
+}
+#nav-icon-footer{
+    font-size: 30px;
+    letter-spacing: 40px;
+    color:#0A5FAE;
+}
+#nav-icon-footer:hover{
+    color: black;
+    transform: scale(1.1);
+    text-shadow: 5px 2px 5px #0A5FAE;
 }
