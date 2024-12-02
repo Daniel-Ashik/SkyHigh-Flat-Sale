@@ -13,6 +13,9 @@
 <body>
     <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
+          <a href="javascript:void(0);" onclick="goBack()" id="backBtn">
+            <img src="arrow-left-s-line.png">
+          </a>
           <a href="/">
             <img id="home-logo-img" src="image 1.png">
           </a>
@@ -49,18 +52,20 @@
         </div>
       </nav>
 </body>
+<script src="skyhigh.js"></script>
 <script>
     function post(){
       alert('Not Valid!')
     }
 
-//  const homeLink=document.getElementById('homeLink')
-// const spanElement=document.getElementById('atagH')
-// const iconElement=homeLink.querySelector('i')
-// homeLink.addEventListener('click',function(event){
-//     event.preventDefault()
-//     spanElement.style.display='none'
-//     iconElement.style.display='block'
-// })
+    function goBack(){
+      window.history.back()
+    }
+    document.addEventListener('DOMContentLoaded',function(){
+      if(window.location.pathname==='atagH' || window.location.pathname==='/'){
+        document.getElementById('backBtn').style.display='none'
+      }
+    })
+
 </script>
 </html>
